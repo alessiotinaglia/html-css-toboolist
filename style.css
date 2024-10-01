@@ -39,6 +39,19 @@ header{
 
 /* inizio Main */
 
+.bottoni{
+    margin-top: 50px;
+    background-color: white;
+    border: 1px solid red;
+    padding: 15px;
+     padding-left: 25px;
+
+}
+
+#colore-blu{
+    background-color: #47ACF2;
+}
+
 
 /* inizio footer */
   .text-small{
