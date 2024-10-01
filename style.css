@@ -15,8 +15,8 @@ body {
 
 /* colori da utilizare
 #47ACF2 colore azzurro
-#9B72E5 colore viola
-#64C0A8 colore verde
+ colore viola
+ colore verde
 #F29D34 colore arancione
 #D963A0 colore rosa 
 #B0C925 colore verde chiaro  */
@@ -29,7 +29,15 @@ header{
     background: white;
     font-weight: 600;
     padding: 10px;
+   
 }
+
+.contenitore{
+    background-color: white;
+    padding: 30px;
+    margin-top: 2px;
+}
+
 #titolo {
     margin-left: 0.3em;
 }
@@ -39,27 +47,78 @@ header{
 
 /* inizio Main */
 
+main{
+    margin: 50px 200px;
+    
+}
+
 .bottoni{
     margin-top: 50px;
     background-color: white;
-    border: 1px solid red;
     padding: 15px;
-     padding-left: 25px;
 
 }
-
 #colore-blu{
     background-color: #47ACF2;
 }
 
 
+
+.verde{
+    color: #64C0A8;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 1px solid #64C0A8;
+
+}
+
+.rosso{
+    color: red;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 1px solid red;
+}
+
+.evidenziato-blue{
+    background-color: #47ACF2;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.evidenziato-verde{
+    background-color: #64C0A8;
+    border-radius: 20px;
+    padding: 5px;
+}
+.evidenziato-viola{
+    background-color: #9B72E5;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.evidenziato-verde-chiaro{
+    background-color: #B0C925;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.evidenziato-arancione{
+    background-color: #F29D34;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+
 /* inizio footer */
   .text-small{
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
   .text-regular{
-    font-size: 2em;
+    font-size: 1.5em;
+
   }
 
   .text-big{
